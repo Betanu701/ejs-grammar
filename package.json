@@ -33,6 +33,17 @@
 					"meta.embedded.block.ejs": "ejs",
 					"meta.embedded.block.javascript": "source.js"
 				}
+			},
+			{
+				"scopeName": "text.html.markdown.ejs",
+				"path": "./syntaxes/markdown-ejs.tmLanguage.json",
+				"injectTo": [
+					"text.html.markdown"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.ejs": "ejs",
+					"meta.embedded.block.javascript": "source.js"
+				}
 			}
 		],
 		"snippets": [
