@@ -37,7 +37,7 @@
   "EJS Include": {
     "prefix": "ejsinc",
     "body": [
-      "<% include $1 %> $2"
+      "<%- include(\"$1\") %> $2"
     ],
     "description": "EJS include statement"
   },
