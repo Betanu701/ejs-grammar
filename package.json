@@ -22,6 +22,19 @@
 		"syntax highlighting"
 	],
 	"contributes": {
+		"languages": [
+			{
+				"id": "ejs",
+				"aliases": [
+					"EJS",
+					"ejs"
+				],
+				"extensions": [
+					".ejs"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
 		"grammars": [
 			{
 				"scopeName": "text.html.ejs",
