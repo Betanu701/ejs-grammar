@@ -136,7 +136,7 @@
 		"tag-ejs-multi-line": {
 			"contentName":"source.js",
 			"name": "meta.block.ejs",
-			"begin":"(<[%?](?:(?!php))[%_=-]?)(?!(\\s*\\*\/))",
+			"begin":"(<[%?](?:(?!php))[%_=-]?)(?!([_-]?[%?]>))",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.operator.relational.js"
